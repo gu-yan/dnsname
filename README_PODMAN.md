@@ -8,8 +8,13 @@ This tutorial assumes you already have Podman, containernetworking-plugins, and 
 
 ## Install dnsmasq
 
-Using your package manager, install the *dnsmasq* package.  For Fedora, this would be:
+Using your package manager, install the *dnsmasq* package.  
+
+* For Fedora, this would be:
 `sudo dnf install dnsmasq`
+
+* For Centos, this would be:
+`dnf install podman-plugins`
 
 ### AppArmor
 
